@@ -160,6 +160,7 @@ return {
         gopls = {},
         isort = {},
         black = {},
+        autopep8 = {},
         debugpy = {},
         pylsp = {
           settings = {
@@ -182,6 +183,7 @@ return {
               },
             },
           },
+          capabilities = capabilities,
         },
 
         -- rust_analyzer = {},
